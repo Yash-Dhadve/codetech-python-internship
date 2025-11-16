@@ -1,2 +1,0 @@
-The quick brown fox jumps over the lazy dog.
-This is a simple example to demonstrate stop word removal using Python and NLTK.
