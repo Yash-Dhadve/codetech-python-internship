@@ -1,0 +1,120 @@
+{
+  "intents": [
+
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey", "good morning", "good afternoon", "good evening", "greetings"],
+      "responses": ["Hello! How can I assist you today?", "Hi there! How may I help you?"]
+    },
+
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "goodbye", "see you", "talk later", "have a good day"],
+      "responses": ["Goodbye! Have a great day!", "See you soon!"]
+    },
+
+    {
+      "tag": "services",
+      "patterns": [
+        "what services do you offer",
+        "what do you provide",
+        "what are your services",
+        "what solutions do you offer"
+      ],
+      "responses": [
+        "We provide consulting technology solutions and business support services."
+      ]
+    },
+
+    {
+      "tag": "business_hours",
+      "patterns": [
+        "what are your business hours",
+        "when are you open",
+        "working hours",
+        "office timing"
+      ],
+      "responses": [
+        "Our business hours are Monday to Friday from 9 AM to 6 PM."
+      ]
+    },
+
+    {
+      "tag": "contact_support",
+      "patterns": [
+        "how can i contact support",
+        "how do i contact you",
+        "customer support",
+        "contact details"
+      ],
+      "responses": [
+        "You can contact support via email phone or live chat."
+      ]
+    },
+
+    {
+      "tag": "pricing",
+      "patterns": [
+        "what is pricing",
+        "how much does it cost",
+        "pricing plans",
+        "subscription cost"
+      ],
+      "responses": [
+        "Pricing depends on the selected plan and usage. Please contact sales for details."
+      ]
+    },
+
+    {
+      "tag": "refund_policy",
+      "patterns": [
+        "do you offer refunds",
+        "refund policy",
+        "money back",
+        "can i get refund"
+      ],
+      "responses": [
+        "Refund policies depend on contract terms and service agreements."
+      ]
+    },
+
+    {
+      "tag": "security",
+      "patterns": [
+        "is my data secure",
+        "how do you protect data",
+        "data security",
+        "privacy policy"
+      ],
+      "responses": [
+        "We follow strict data security and privacy protocols including encryption and secure storage."
+      ]
+    },
+
+    {
+      "tag": "subscription",
+      "patterns": [
+        "how do i cancel",
+        "cancel subscription",
+        "change plan",
+        "upgrade plan"
+      ],
+      "responses": [
+        "You can modify or cancel your subscription by contacting our support team."
+      ]
+    },
+
+    {
+      "tag": "demo",
+      "patterns": [
+        "can i schedule a demo",
+        "book demo",
+        "demo request"
+      ],
+      "responses": [
+        "Yes you can schedule a demo through our website."
+      ]
+    }
+
+  ]
+}
