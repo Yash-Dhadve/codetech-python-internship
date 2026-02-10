@@ -161,6 +161,7 @@ if st.button("Get Weather Data"):
             ax=axes[0, 0], # Plot the rolling average on the same subplot to compare it with the actual temperature trend
             x="date_time", 
             y="rolling_avg", 
+            data=df,
             linestyle="--",
             label="Rolling Avg" 
         )
