@@ -122,12 +122,26 @@ A professional business chatbot built using:
 * scikit-learn
 * JSON-based intent system
 
-### Run the App
+## Setup Instructions
+### Create Environment File
+```bash
+1. Create a new file named .env in the root directory of the project.
+2. Open the .env.example file.
+3. Copy all the variables from .env.example.
+4. Paste them into your newly created .env file.
+5. Replace the placeholder values with your actual credentials and API keys.
+```
 
+### Run the App
+Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+Start the Streamlit App 
 ```bash
 streamlit run app.py
 ```
-
 ---
 
 ## 📈 Task 4: Machine Learning Model Implementation
